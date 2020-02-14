@@ -15,8 +15,11 @@ class Compute:
         difference -= item
         print(difference)
 
-   def divide(self):
-        pass
+   def division(self):
+        quotient = 1
+        for item in self.operands:
+        quotient /= item
+        print(quotient)
 
     def multiply(self):
         sum = 1
