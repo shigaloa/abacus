@@ -48,4 +48,4 @@ class Util(object):
 
     @classmethod
     def time(arg1, arg2):
-        pass
+        time = 0
