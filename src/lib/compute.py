@@ -4,9 +4,9 @@ class Compute:
         self.operands = operands
 
     def add(self):
-        total = 0
+        total = 1
         for item in self.operands:
-            total += item
+        total += item
         print(total)
 
     def subtract(self):
