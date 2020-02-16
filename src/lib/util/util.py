@@ -40,7 +40,7 @@ class Util(object):
         pass
 
     @classmethod
-    def distance(unit, *args):
+    def distance(cls, unit, *args):
         distance = 0
         return distance
 
