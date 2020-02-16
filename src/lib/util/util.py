@@ -40,8 +40,9 @@ class Util(object):
         pass
 
     @classmethod
-    def distance(arg1, arg2):
-        pass
+    def distance(unit, *args):
+        distance = 0
+        return distance
 
     @classmethod
     def time(arg1, arg2):
