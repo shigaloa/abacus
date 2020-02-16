@@ -38,6 +38,7 @@ class Util(object):
     @classmethod
     def speed(cls, unit, *args):
         speed = 0
+        speed = 1
         return speed
 
     @classmethod
