@@ -19,10 +19,11 @@ class Compute:
         pass
 
     def multiply(self):
-        sum = 1
-        for item in self.operands:
-        sum *= item
-        print(sum)
+        sum = 1
+        for item in self.operands:
+           sum *= item
+        print(sum)
+
     def exponent(self):
         num_exponent = self.operands[0] ** self.operands[1]
         print(num_exponent)
