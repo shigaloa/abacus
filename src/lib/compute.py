@@ -28,3 +28,12 @@ class Compute:
         num_exponent = self.operands[0] ** self.operands[1]
         print(num_exponent)
     
+    def subtract(self):
+        difference = 0
+        for item in self.operands:
+        difference -= item
+        print(difference)
+
+    def divide(self):
+        pass
+
